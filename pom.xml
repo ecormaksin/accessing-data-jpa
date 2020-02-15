@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>accesing-data-jpa</artifactId>
+	<artifactId>accessing-data-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accesing-data-jpa</name>
+	<name>accessing-data-jpa</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,6 +22,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
